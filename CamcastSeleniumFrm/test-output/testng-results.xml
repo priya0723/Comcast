@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-23T07:34:04Z" name="Default suite" finished-at="2021-09-23T07:34:04Z" duration-ms="32">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="OrgTest.createOrgTest()[pri:0, instance:com.comcast.orgtest.OrgTest@ca30bc1]" name="createOrgTest" class="com.comcast.orgtest.OrgTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="regressionTest">
+        <method signature="OrgTest.deleteOrgTest()[pri:0, instance:com.comcast.orgtest.OrgTest@ca30bc1]" name="deleteOrgTest" class="com.comcast.orgtest.OrgTest"/>
+      </group> <!-- regressionTest -->
+      <group name="regressionTeat">
+        <method signature="OrgTest.OrgWithContactTest()[pri:0, instance:com.comcast.orgtest.OrgTest@ca30bc1]" name="OrgWithContactTest" class="com.comcast.orgtest.OrgTest"/>
+      </group> <!-- regressionTeat -->
+    </groups>
+    <test started-at="2021-09-23T07:34:04Z" name="Default test" finished-at="2021-09-23T07:34:04Z" duration-ms="32">
+      <class name="com.comcast.orgtest.OrgTest">
+        <test-method signature="OrgWithContactTest()[pri:0, instance:com.comcast.orgtest.OrgTest@ca30bc1]" started-at="2021-09-23T07:34:04Z" name="OrgWithContactTest" finished-at="2021-09-23T07:34:04Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrgWithContactTest -->
+        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.orgtest.OrgTest@ca30bc1]" started-at="2021-09-23T07:34:04Z" name="createOrgTest" finished-at="2021-09-23T07:34:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method signature="deleteOrgTest()[pri:0, instance:com.comcast.orgtest.OrgTest@ca30bc1]" started-at="2021-09-23T07:34:04Z" name="deleteOrgTest" finished-at="2021-09-23T07:34:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrgTest -->
+      </class> <!-- com.comcast.orgtest.OrgTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
